@@ -24,8 +24,7 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="21"/>
 
-    <application
-        android:theme="@android:style/Theme.Holo.Light">
+    <application>
 
         <activity
           android:label="@string/app_name"
