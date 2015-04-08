@@ -2,7 +2,7 @@
 
 This is a template project to work with Scala on Android
  
- The project is structured like a typical android project.
+The project is structured like a typical android project.
  
 - AndroidManifest: `src/main`
 - Scala source files: `src/main/scala`
