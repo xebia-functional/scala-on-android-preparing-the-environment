@@ -16,6 +16,6 @@
   -->
 
 <resources>
-    <string name="app_name">Scala in Android</string>
+    <string name="app_name">Scala on Android</string>
     <string name="hello_world">Hello World!</string>
 </resources>
