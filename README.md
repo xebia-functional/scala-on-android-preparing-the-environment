@@ -8,4 +8,4 @@ The project is structured like a typical android project.
 - Scala source files: `src/main/scala`
 - Android resource files: `src/main/res`
   
-You can find more information in the post ["Scala in Android: Preparing the Environment"](http://47deg.com/blog/scala-in-android-preparing-the-environment)
+You can find more information in the post ["Scala on Android: Preparing the Environment"](http://www.47deg.com/blog/scala-on-android-preparing-the-environment)
