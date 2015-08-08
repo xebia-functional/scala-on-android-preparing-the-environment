@@ -1,7 +1,7 @@
 android.Plugin.androidBuild
 
 // Specifying the Android target Sdk version
-platformTarget in Android := "android-21"
+platformTarget in Android := "android-22"
 
 // Application Name
 name := """scala-android"""
@@ -10,7 +10,7 @@ name := """scala-android"""
 version := "1.0.0"
 
 // Scala version
-scalaVersion := "2.11.4"
+scalaVersion := "2.11.7"
 
 // Repositories for dependencies
 resolvers ++= Seq(Resolver.mavenLocal,
@@ -32,3 +32,7 @@ useProguard in Android := true
 proguardOptions in Android ++= Seq(
   "-ignorewarnings",
   "-keep class scala.Dynamic")
+
+javacOptions ++= Seq("-source", "1.7", "-target", "1.7")
+
+scalacOptions += "-target:jvm-1.7"
