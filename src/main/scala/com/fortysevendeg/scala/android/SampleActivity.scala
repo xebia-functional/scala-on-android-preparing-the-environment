@@ -19,7 +19,7 @@ package com.fortysevendeg.scala.android
 import android.app.Activity
 import android.os.Bundle
 
-class SampleActivity extends Activity with TypedViewHolder {
+class SampleActivity extends Activity with TypedFindView {
 
   override def onCreate(bundle: Bundle) {
     super.onCreate(bundle)
